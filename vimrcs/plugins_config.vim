@@ -186,4 +186,12 @@ let g:ale_lint_on_enter = 0
 " => Git gutter (Git diff)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:gitgutter_enabled=0
+set updatetime=100
 nnoremap <silent> <leader>d :GitGutterToggle<cr>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Git Fugitive
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+nmap <leader>gs :G<cr>
+

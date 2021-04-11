@@ -1,8 +1,19 @@
 let mapleader = " "
 
+
+" => Mouse support
+set ttyfast " Enable mouse use in all modes
+set mouse=a " Set this to the name of your terminal that supports mouse codes.
+"
+" Must be one of: xterm, xterm2, netterm, dec, jsbterm, pterm
+set ttymouse=xterm2
+
+
 set encoding=utf-8
+
 " If there is .vimrc in current directory, source it.
 set exrc
+
 " Relative line numbering, but keep current line
 set relativenumber 
 set nu 
