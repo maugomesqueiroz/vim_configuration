@@ -1,6 +1,6 @@
 # Maurício's vim configuraton 
 
-This is based on the [amix][https://github.com/amix/vimrc] configuration, but modified to my liking. **Here** I'm using Vim Plug as a plugin manager
+This is based on the [amix](https://github.com/amix/vimrc) configuration, but modified to my liking. **Here** I'm using Vim Plug as a plugin manager
 
 ## Included Plugins
 

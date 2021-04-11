@@ -3,6 +3,8 @@
 """"""""""""""""""""""""""""""
 
 call plug#begin('~/.vim_myconfigs/.vim/plugged')
+" Git Gutter
+Plug 'airblade/vim-gitgutter'
 
 " Vim surround
 Plug 'tpope/vim-surround'
